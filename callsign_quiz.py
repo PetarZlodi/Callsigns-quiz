@@ -3,7 +3,7 @@ import random
 
 # --- Full callsign dictionary ---
 callsigns = {
-    "AAB": "Abelag", "AAF": "Aigle Azur", "AAL": "American", "AAR": "Asian",
+    "AAB": "Abelag", "AAF": "Aigle Azur", "AAL": "American", "AAR": "Asiana",
     "ABN": "Air Albania", "ACA": "Air Canada", "AIC": "Air India",
     "AFR": "Air France", "AZA": "Alitalia", "ASL": "Air Serbia",
     "ATL": "Air Bernina", "AUA": "Austrian", "AUI": "Ukraine International",
@@ -30,7 +30,7 @@ callsigns = {
     "MPH": "Martinair", "MON": "Monarch", "MNB": "Black Sea",
     "NAX": "Norwegian", "NJE": "Fraction", "NLY": "Nile Bird",
     "NVR": "Novair", "OAL": "Olympic", "OHY": "Onur Air",
-    "OSY": "Open Skies", "OZ": "Asiana", "PIA": "Pakistan",
+    "OSY": "Open Skies", "OTF": "OrangeSky", "PIA": "Pakistan",
     "PGT": "SunTurk", "PBD": "Pobeda", "PRI": "Primera",
     "PWF": "Private Wings", "QAF": "Amiri", "QFA": "Qantas",
     "QTR": "Qatari", "QGA": "Quadax", "RAM": "Royalair Maroc",

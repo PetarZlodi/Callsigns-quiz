@@ -19,8 +19,8 @@ if "feedback" not in st.session_state:
     st.session_state.feedback = ""
 if "answered" not in st.session_state:
     st.session_state.answered = False
-if "used" not in st.session_state:
-    st.session_state.used = set()
+#if "used" not in st.session_state:
+    #st.session_state.used = set()
 if "next_question_requested" not in st.session_state:
     st.session_state.next_question_requested = False
 
@@ -53,8 +53,8 @@ st.set_page_config(page_title="Callsign Abbreviation Quiz", page_icon="✈️", 
 st.title("✈️ Callsign Abbreviation Quiz")
 
 # --- Start quiz ---
-#if st.session_state.current_callsign is None and not st.session_state.feedback:
-    #new_question()
+if st.session_state.current_callsign is None and not st.session_state.feedback:
+    new_question()
 
 # --- Show question ---
 if st.session_state.current_callsign:

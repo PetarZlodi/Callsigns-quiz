@@ -73,3 +73,10 @@ if st.session_state.current:
     cols = st.columns(2)
     for i, option in enumerate(st.session_state.options):
         with cols[i % 2]:
+            if st.button(option, key=f"option_{i}", use_container_width=True):
+            if not st.session_state.answered:
+                if option == st.session_state.answer:
+                    st.session_state.feedback = f"✅ Correct! {st.session_state.current} = {option}"
+                else:
+                    st.session_state.feedback = f"❌ Wrong! Correct answer: {st.session_state.answer}"
+                st.session_state.answered = True

@@ -53,8 +53,8 @@ st.set_page_config(page_title="Callsign Abbreviation Quiz", page_icon="✈️", 
 st.title("✈️ Callsign Abbreviation Quiz")
 
 # --- Start quiz ---
-if st.session_state.current_callsign is None and not st.session_state.feedback:
-    new_question()
+#if st.session_state.current_callsign is None and not st.session_state.feedback:
+    #new_question()
 
 # --- Show question ---
 if st.session_state.current_callsign:

@@ -1,3 +1,5 @@
+import streamlit as st
+import random
 # Full callsign dictionary (from images)
 callsigns = {
     # your dictionary unchanged...

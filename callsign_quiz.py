@@ -4,7 +4,7 @@ import random
 # --- Full callsign dictionary ---
 callsigns = {
     "AAB": "Abelag", "AAF": "Aigle Azur", "AAL": "American", "AAR": "Asiana", "ABG": "Royal Flight",
-    "ABN": "Air Albania", "ABR": "Contract", "ACA": "Air Canada", "ACP": "Air Canada", "ADB": "Antonov Bureau",
+    "ABN": "Air Albania", "ABR": "Contract", "ACA": "Air Canada", "ACP": "Astral Cargo", "ADB": "Antonov Bureau",
     "ADR": "Adria", "AEA": "Europa", "AEG": "Aegean", "AEE": "Aegean", "AFR": "Air France", "AGX": "Ameriflight",
     "AIC": "Air India", "AIH": "Air Incheon", "AIZ": "Arkia", "AJM": "Airmalta", "ALK": "Air Lanka", "AMC": "Air Malta",
     "AMQ": "Amas", "AMS": "Amex", "ANA": "All Nippon", "ANG": "Angola", "AUA": "Austrian", "AUI": "Ukraine International",
